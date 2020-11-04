@@ -1,0 +1,119 @@
+/* CSS files add styling rules to your content */
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+.main-body {
+  display: flex;
+  
+  }
+
+h1 {
+  font-style: initial;
+  font-size: 35px;
+  font-weight: bold;
+  color: #070708;
+}
+
+h2 {
+  font-style: italic;
+  color: #373974;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: bold;
+  color: rgba(83, 75, 75, 0.87);
+  line-height: 10px;
+}
+
+h5 {color: rgba(151, 147, 147, 0.87);
+  font-weight: bold;
+}
+
+p {
+  font-style: initial;
+  color:  white;
+}
+
+/*
+* Sections
+*/
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  padding: 10px 10px;
+  /* border: 1px solid hotpink; */
+  }
+
+  .page-wrapper {
+    text-align: left;
+    
+  }
+.profile {
+  text-align: center;
+  background-color: #467999;
+  
+  }
+
+  .content {
+    text-align: left;
+    background-color: #00aeff1a;      
+    
+    } 
+
+    .work-experience, .education, .skills {
+    border: 1px solid #070708;
+    
+    }
+
+     .contact, .summary, .others {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    }
+
+.profile-image {
+  display: inline-block;
+  background: #222;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  
+  background-image: url("https://cdn.glitch.com/cfb2305d-0b9e-4544-8b07-2a021fe937cd%2FIMG_20201023_113150.jpg?v=1603445590444");
+  background-size: cover;
+
+
+  @media (min-width: 600px) 
+    main {
+      display: flex;
+      margin: 5% auto;
+      border: 1px solid #EAEAEA;
+    }
+
+     .page-wrapper {
+       display: flex;
+       flex-direction: row;
+      
+     }
+
+    .profile {
+      display: flex;
+      flex-direction: column;         
+    }
+
+    .content {
+      display: flex;
+      flex-direction:column;    
+     
+     }
+
+
